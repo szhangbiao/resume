@@ -85,15 +85,15 @@ themeButton.addEventListener('click', () => {
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
 function scaleCv () {
-    let homeTitle = document.getElementById('home-title')
-    homeTitle.classList.add('home__title_cv')
+    // let homeTitle = document.getElementById('home-title')
+    // homeTitle.classList.add('home__title_cv')
     document.body.classList.add('scale-cv')
 }
 
 /*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
 function removeScale () {
-    let homeTitle = document.getElementById('home-title')
-    homeTitle.classList.remove('home__title_cv')
+    // let homeTitle = document.getElementById('home-title')
+    // homeTitle.classList.remove('home__title_cv')
     document.body.classList.remove('scale-cv')
 }
 
