@@ -85,11 +85,15 @@ themeButton.addEventListener('click', () => {
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
 function scaleCv () {
+    let homeTitle = document.getElementById('home-title')
+    homeTitle.classList.add('home__title_cv')
     document.body.classList.add('scale-cv')
 }
 
 /*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
 function removeScale () {
+    let homeTitle = document.getElementById('home-title')
+    homeTitle.classList.remove('home__title_cv')
     document.body.classList.remove('scale-cv')
 }
 
@@ -102,7 +106,7 @@ let resumeButton = document.getElementById('resume-button')
 // Html2pdf options
 var opt = {
     margin: 0,
-    filename: 'myResue.pdf',
+    filename: '时章标简历.pdf',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 4 },
     jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }

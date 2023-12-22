@@ -343,7 +343,12 @@ img{
 }
 
 .home__title{
+    margin-top: 30px;
     font-size: var(--h1-font-size);
+}
+
+.home__title_cv{
+    margin-top: 0px;
 }
 
 .home__profession{
@@ -552,6 +557,10 @@ img{
     bottom: 5rem;
 }
 
+.hide {
+    display: none;
+}
+
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
 @media screen and (max-width: 320px){
@@ -624,3 +633,5 @@ img{
         column-gap: 3.5rem;
     }
 }
+
+
