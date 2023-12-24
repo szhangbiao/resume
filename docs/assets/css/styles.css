@@ -148,7 +148,6 @@ body.scale-cv {
     gap: 1rem;
 }
 
-.scale-cv .education__time,
 .scale-cv .experience__time{
     padding-right: .5rem;
 }
@@ -415,7 +414,6 @@ img{
     display: flex;
 }
 
-.education__time,
 .experience__time{
     padding-right: 1rem;
 }
@@ -454,10 +452,6 @@ img{
 .experience__company{
     font-size: var(--small-font-size);
     columns: var(--title-color);
-}
-
-.education__year{
-    font-size: var(--small-font-size);
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
