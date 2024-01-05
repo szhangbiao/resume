@@ -103,7 +103,7 @@ body.scale-cv {
 }
 
 .scale-cv .bd-container{
-    max-width: 595px;
+    max-width: 680px;
 }
 
 .scale-cv .section{
@@ -165,6 +165,12 @@ body.scale-cv {
 .scale-cv .experience__line{
     width: 1px;
     height: 110%;
+    transform: translate(5px,0);
+}
+
+.scale-cv .experience__bottom__line{
+    width: 1px;
+    height: 95%;
     transform: translate(5px,0);
 }
 
@@ -440,6 +446,14 @@ img{
     transform: translate(7px,0);
 }
 
+.experience__bottom__line{
+    display: block;
+    width: 2px;
+    height: 95%;
+    background-color: var(--text-color-light);
+    transform: translate(7px,0);
+}
+
 .education__data,
 .experience__data{
     gap: .5rem;
@@ -580,7 +594,7 @@ img{
 
     .resume{
         display: grid;
-        grid-template-columns: .5fr 1fr;
+        grid-template-columns: .35fr 1fr;
         background-color: var(--container-color);
         box-shadow: 0 0 8px rgba(13, 12, 12, .15);
     }
