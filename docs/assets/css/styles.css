@@ -11,6 +11,8 @@
   --text-color-light: #707070;
   --container-color: #FAFAFA;
   --container-color-alt: #F0EFEF;
+  --skills-bar-color-lighter: #D0D0D0;
+  --skills-bar-color: #B0B0B0;
   --body-color: #FCFCFC;
 
   /*========== Font and typography ==========*/
@@ -24,10 +26,12 @@
   --smaller-font-size: .813rem;
 
   /*========== Font weight ==========*/
+  --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
   /*========== Margenes ==========*/
+  --mb-0-3: .3rem;
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -52,6 +56,8 @@ body.dark-theme{
     --text-color: #BFBFBF;
     --container-color: #212121;
     --container-color-alt: #181616;
+    --skills-bar-color-lighter: #BFBFBF;
+    --skills-bar-color: #F2F2F2;
     --body-color: #2B2B2B;
 }
 
@@ -188,6 +194,12 @@ body.scale-cv {
     column-gap: 2.5rem;
 }
 
+.scale-cv .skills__bar,
+.scale-cv .skills__percentage{
+    height: 4px;
+    border-radius: .2rem;
+}
+
 body{
     margin: 0 0 var(--header-height) 0;
     padding: 0;
@@ -245,6 +257,11 @@ img{
 .bd-grid{
     display: grid;
     gap: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: .5rem;
 }
 
 .l-header{
@@ -315,7 +332,7 @@ img{
 }
 
 .nav__icon{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: var(--mb-1);
 }
 /* Show menu */
@@ -366,7 +383,7 @@ img{
 .home__information{
     display: flex;
     align-items: center;
-    font-size: var(--smaller-font-size)
+    font-size: var(--small-font-size)
 }
 
 .home__icon{
@@ -497,6 +514,74 @@ img{
     border-radius: 50%;
     margin-right: .75rem;
 }
+
+.skills__list{
+    row-gap: .5rem;
+}
+
+.skills__data{
+    /* display: flex; */
+}
+
+.skills__titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-3);
+}
+
+.skills__category{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
+}
+
+.skills__number{
+    display: none;
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar{
+    background-color: var(--skills-bar-color-lighter);
+}
+
+.skills__percentage{
+    display: block;
+    background-color: var(--skills-bar-color);
+}
+
+.skills__android,
+.skills__kotlin{
+    width: 90%;
+}
+.skills__java{
+    width: 80%;
+}
+
+.skills__dart,
+.skills__flutter{
+    width: 75%; 
+}
+
+.skills__react,
+.skills__react_native{
+    width: 50%;
+}
+
+
+.skills__python{
+    width: 60%;
+}
+
+.skills__backend{
+    width: 65%;
+}
+.skills__js{
+    width: 70%;
+}
 /*========== CERTIFICATES ==========*/
 .certificate__title{
     font-size: var(--h3-font-size);
@@ -594,7 +679,7 @@ img{
 
     .resume{
         display: grid;
-        grid-template-columns: .35fr 1fr;
+        grid-template-columns: .38fr 1fr;
         background-color: var(--container-color);
         box-shadow: 0 0 8px rgba(13, 12, 12, .15);
     }
