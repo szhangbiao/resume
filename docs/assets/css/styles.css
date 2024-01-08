@@ -519,10 +519,6 @@ img{
     row-gap: .5rem;
 }
 
-.skills__data{
-    /* display: flex; */
-}
-
 .skills__titles{
     display: flex;
     justify-content: space-between;
