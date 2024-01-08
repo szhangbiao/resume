@@ -106,7 +106,7 @@ let resumeButton = document.getElementById('resume-button')
 // Html2pdf options
 var opt = {
     margin: 0,
-    filename: '时章标简历.pdf',
+    filename: '时章标Android工程师简历.pdf',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 4 },
     jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
