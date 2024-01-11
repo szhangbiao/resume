@@ -77,9 +77,6 @@ body.dark-theme{
 }
 
 /*========== Button ZH/EN ==========*/
-.change-language{
-    display: none;
-}
 .change-language-left{
     display: flex;
     position: absolute;
@@ -138,6 +135,8 @@ body.scale-cv {
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 .scale-cv .home_blog,
 .scale-cv .change-theme,
+.scale-cv .link__external,
+.scale-cv .play__store,
 .scale-cv .change-language-left,
 .scale-cv .change-language-right,
 .scale-cv .generate-pdf{
@@ -361,6 +360,14 @@ img{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
     font-weight: var(--font-medium);
+}
+
+.play__store,
+.link__external{
+    font-size: var(h3-font-size);
+    color: var(--text-color);
+    padding-top: 5px;
+    font-weight: var(--font-semi-bold);
 }
 
 .blog__link{
