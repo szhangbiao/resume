@@ -18,3 +18,5 @@ What I am looking for is**\_**
 What I'm looking for is a company that I could add value to that I could produce a positive return on investment for where I could join a strong team. Is this what ABC company is looking for?
 
 ### Example 2
+
+Thanks you for giving me the opportunity to be interviewed for this position today. Having studied the job description, I am confident I have the skills, the qualitites, and the qualifications needs to excel in the role. I am a fast learner; I possess excellent problem-solving capabilities, and I can manage a significant work load. I have an impressive track record of achievement. For example, in my previous role I was praised by my superivisor for helping the company find ways to increase sales by improving customer service standards, the type of person I am means I always act as a positive role model for the company, and I will make sure I take responsibility for my ongoing professional development. if you hire me in this position, I believe you will quickly see a positive return on your investment.
