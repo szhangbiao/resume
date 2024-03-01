@@ -13,4 +13,16 @@ sendMessage(): dispatchMessage -> Handler.mCallback != null -> Handler.mCallback
 
 #### 2.View 绘制过程
 
+UI 的刷新机制：ViewRootImpl.scheduleTraversals() -> 加入到待执行队列并给刷新信号注册监听 -> VSync 信号到来时取出对应的 scheduleTraversals()并加入到主线程的消息队列 -> 消息取出并执行 measure()、layout()、draw()
+同步屏障：Looper.loop()  调用 MessageQueue 的 next()方法取出队列头部 Message 执行 -> 遇到同步消息（一种特殊机制）后会寻找异步消息执行，不然就会一直阻塞，除非同步屏障取出 -> 界面刷新是异步操作，具有最高优先级
+
+ViewRootImpl.requestLayout() -> ViewRootImpl.scheduleTraversals() -> 加入待执行队列并给刷新信号注册监听 -> VSync 信号到来时取出对应的 scheduleTraversals()并加入到主线程的消息队列 -> 消息取出调用 ViewRootImpl.performTraversals()执行 measure()、layout()、draw()
+
 #### 3.事件传递机制
+
+ViewGroup.dispatchTouchEvent() -> ViewGroup.onInterceptTouchEvent() -> (true) onTouchEvent()
+-> (false) View.dispatchTouchEvent()
+
+getParent().requestDisallowInterceptTouchEvent(true)
+
+#### 4.RecyclerView 常见面试题

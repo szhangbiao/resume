@@ -2,6 +2,10 @@
 
 ViewModel、LiveData、Lifecycle、Room、WorkManager、Navigation、Paging 等组件
 
+#### Lifecycle
+
 #### ViewModel
 
 #### LiveData
+
+#### WorkManager
