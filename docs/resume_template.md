@@ -3,8 +3,8 @@
 -   手机：18551229348
 -   Email：szhangbiao@gmail.com
 -   微信号：wx_szhangbiao
--   github：https://github.com/szhangbiao
 -   博客：https://szhangbiao.github.io
+-   github：https://github.com/szhangbiao
 -   在线简历：https://szhangbiao.github.io/resume
 
 ## 个人信息
@@ -16,16 +16,15 @@
 
 ## 技能清单
 
--   10 年移动开发经验，擅长使用 Kotlin、Java、Dart、JavaScript 语言，熟悉 React 及 Python
--   熟练使用 Kotlin 开发 MVVM 架构的 Android 应用，熟悉 Jetpack 组件、RxJava、Kotlin Flow 等流行库
--   熟练使用 Dart 语言开发 Flutter 应用，熟悉 Riverpod、Dio、Floor、Rxdart 等流行库
--   熟悉使用 JUnit、Robolectric、mockk、Espresso 等框架单元测试及 Android 测试
--   熟悉自定义 View, View 绘制流程和事件分发机制, 高性能的 UI 开发
--   熟悉 MySQL、SQLite3、Redis、Hive 等数据库的使用
--   熟悉 Node.js，了解 Express、Koajs、Eggjs 后端框架，有 Eggjs 后端完整的开发经验
--   熟悉 Bitrise、Github Actions、Bitbucket Pipelines 等 CI/CD 平台
--   熟悉使用 Python、Groovy、Bash 等语言开发自定义脚本
--   熟悉常用的设计模式、计算机网络、数据结构和算法, 有刷 LeetCode 的习惯
+-   10 年移动开发经验，擅长使用 Kotlin、Java、Dart、JS 语言开发，熟悉 React 及 Python
+-   熟练使用 Kotlin 开发 MVVM 架构的 Android 应用，熟悉 Jetpack 组件、RxJava、Kotlin Flow & Channel、Hilt、Glide、OkHttp 等流行库
+-   熟悉使用 JUnit、Robolectric、mockk、Espresso 等框架进行单元测试
+-   熟悉自定义 View，View 绘制流程和事件分发机制，高性能的 UI 开发
+-   熟练使用 Dart 语言开发 Flutter 跨平台应用，熟悉 Riverpod、Dio、Floor、Rxdart 等流行库
+-   熟悉 Nodejs，有 Eggjs 后端完整的开发经验，熟悉 MySQL、SQLite3、Redis、Hive 等数据库的使用
+-   熟悉 Bitrise、Github Actions、Bitbucket Pipelines 等 CI/CD 平台及添加自定义脚本
+-   熟悉常用的设计模式、计算机网络、数据结构和算法，有刷 LeetCode 的习惯
+-   了解启动优化、UI 渲染、内存优化、网络优化、安装包体积等方面的优化
 -   做过 Team Leader，也擅长与他人合作，对带领团队共同成长有自己的见解
 -   有多个独立开发从 0 到 1 的项目经验，也有多个 App 重做、重构的经历
 -   英语 CET-4， 有创业和跨国公司工作经验，英文能力满足日常工作要求
@@ -34,15 +33,13 @@
 
 ### 苏州恒创慧力智能科技有限公司 （ 2022 年 2 月 ~ 2024 年 1 月 ）
 
-角色：Android Team Leader
+角色：Android Team Leader<br>
 **职责与工作内容：**
 
-1. 与后端、设计、测试等团队成员紧密合作，敏捷开发共同推进产品的开发与迭代
-2. 负责 Android 端基于 Kotlin、Jetpack 组件的 MVVM 架构设计及重构
-3. 合作制定远程配置(Firebase Remote Config )的数据结构和规范
-4. 参与了多个项目的代码质量检查，包括单元测试、代码混淆、代码规范、代码格式化等
-5. 普及单元测试、Code Review、Bitrise 持续集成，不断提升提升代码质量的同时使项目更易维护
-6. 输出项目新手入手、架构设计、重构步骤、代码规范、单元测试、代码混淆等一系列文档，降低项目维护成本
+1. 与产品、后端、测试等团队配合，需求评审、工时预估、进度控制、敏捷开发，共同推进版本的研发与迭代
+2. 负责 Income 公司主营 App 项目技术选型、架构设计、编写项目入手和模块设计文档
+3. 参与多个 App 的工程化建设、模块化、CI/CD、单元测试、代码审查等工作
+4. 团队内普及新技术、编写技术文档、单元测试覆盖率统计、代码质量审查工具集成等
 
 #### My Income 新加坡保险项目 Android 客户端(Kotlin)
 
@@ -57,13 +54,13 @@
 1. 项目在重构后 Play Store 评分上升到 4.6+，同时公司也超额完成年度 Kpi
 2. 提升 Android 产品稳定性、使月均 Crash-free User 指标提升 5.4%，稳定在 99.8%
 3. 团队内推广 Kotlin 开发代码规范、不同的研发人员在介入时都能快速上手，普及单元测试、Code Review，提升代码质量的同时使项目更易维护
-4. 团队成员提升对 MVVM、数据驱动 UI、Kotlin Flow 等技术的认知，形成了技术积累
+4. 团队成员提升对 MVVM、数据驱动 UI、Kotlin（Flow & Channel）、Hilt 等技术的认知
 5. 全员熟练地掌握 Git，Git Flow 工作流，提高团队协作的效率
 
 #### Optus Sport 澳洲体育类项目 Android Mobile 端与 TV 端(Kotlin)
 
 1. 负责 Android 端订阅管理模块的设计与重构
-2. 与团队成员合作制定远程配置(Firebase Remote Config)的数据结构和规范
+2. 与团队成员合作制定远程配置(Firebase Config)的数据结构和规范
 3. 负责自动化备份本地配置的脚本编写，避免人工操作出现错误的可能
 4. 负责 Bitrise CI/CD 的配置与自定义脚本的编写
 
@@ -75,12 +72,12 @@
 
 ### 苏州极盛软件有限公司（ 2018 年 4 月 ~ 2022 年 2 月 ）
 
-角色：核心开发人员
+角色：核心开发人员<br>
 **职责与工作内容：**
 
-1. 负责多个项目技术方案选型，核心模块开发、重构，编写项目入手和模块设计文档
-2. 日常迭代过程中进行核心问题技术攻关、性能优化，深度参与 Code View
-3. 与产品经理、后端、测试等团队配合，参与需求评审，工时预估，进度预估，保证项目周期可控
+1. 与产品经理、后端、测试等团队配合，参与需求评审，工时预估，进度预估，保证项目周期可控
+2. 负责多个项目技术方案选型，核心模块开发、重构，编写项目入手和模块设计文档
+3. 日常迭代过程中进行核心问题技术攻关、性能优化，深度参与 Code View
 4. 配合产品经理进行 A/B Test、功能校验、代码埋点，用 Bitrise 日常构建与应用上线
 
 #### Vaxcare（Hub & Mobile） ⼀款深度定制的医疗产品
@@ -92,9 +89,9 @@
 
 <b>获得成绩：</b>
 
-1. 多次帮客户分析、发现并解决一些严重影响的 bug,收到客户称赞
+1. 主动多次帮客户分析、发现并解决一些严重影响的 bug,收到客户称赞
 2. 输出 Android 开发代码规范、代码改进、架构设计总结等文档
-3. 团队成员掌握了 ViewModel、LiveData、Kotlin Flow、依赖注入以及 MVVM 架构设计
+3. 团队成员掌握了 ViewModel、LiveData、Kotlin 协程、Dagger 以及 MVVM 架构设计
 
 #### Fiton ⼀款跟随视频健身锻炼健身的产品
 
@@ -126,7 +123,7 @@
 
 ### 苏州朗动网络科技有限公司（ 2015 年 5 月 ~ 2018 年 4 月 ）
 
-角色：移动端 Team Leader, 核心开发人员
+角色：移动端 Team Leader, 核心开发人员<br>
 **职责与工作内容：**
 
 1. 多次主导 Android 客户端重构、架构设计和研发，编写相应架构文档和设计文档
@@ -153,7 +150,7 @@
 
 ### 新电信息科技（苏州）有限公司 （ 2014 年 4 月 ~ 2015 年 4 月 ）
 
-角色：Android 初级开发
+角色：Android 初级开发<br>
 **职责与工作内容：**
 
 1. 配合 Team Leader 共同推进 App 的研发与迭代
@@ -175,4 +172,4 @@
 
 ## 自我评价
 
-热爱技术岗位，富有好奇心和自驱力，善于通过学习提升自我，善于沟通，追求极致，挑战自我
+有良好的产品意识、积极乐观、认真负责、思路清晰，具备独立解决技术问题的能力，对代码质量有一定的追求，追求简洁优雅的代码风格。

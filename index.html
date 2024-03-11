@@ -97,11 +97,6 @@
                                 <span class="home__information">
                                     <i class= 'bx bx-map home__icon'></i> 苏州/上海/杭州
                                 </span>
-                                <span class="home_blog">
-                                    <a href="https://szhangbiao.github.io" target="_blank" class="blog__link" title="点击查看">
-                                        <i class= 'bx bx-code-curly home__icon'></i> 博客
-                                    </a>
-                                </span>
                             </div>
                         </div>
                         <!-- Language change button -->
@@ -227,10 +222,12 @@
                     </section>
 
                     <!--========== PROFILE ==========-->
-                    <section class="profile section hide" id="profile">
+                    <section class="profile section" id="profile">
                         <h2 class="section-title">自我评价</h2>
 
-                        <p class="profile__description">TODO: 热爱技术岗位，富有好奇心和自驱力，善于通过学习提升自我，善于沟通，追求极致，挑战自我。</p>
+                        <p class="profile__description">有良好的产品意识、积极乐观、认真负责、思路清晰，具备独立解决技术问题的能力，对代码质量有一定的追求，追求简洁优雅的代码风格。</p>
+                        <p class="profile__description">博客：https://szhangbiao.github.io</p>
+                        <p class="profile__description">在线简历：https://szhangbiao.github.io/resume</p>
                     </section>
                 </div>
 
@@ -240,22 +237,18 @@
                         <h2 class="section-title">技能清单</h2>
                         <div class="skills__container bd-grid">
                             <div class="skills__content">
-                                <p>- 10年移动开发经验，擅长使用Kotlin、Java、Dart、JavaScript语言，熟悉React及Python</p>
-                                <p>- 熟练使用Kotlin开发MVVM架构的Android应用，熟悉Jetpack组件、RxJava、Kotlin Flow等流行库</p>
-                                <p>- 熟练使用Dart语言开发Flutter应用，熟悉Riverpod、Dio、Floor、Rxdart等流行库</p>
-                                <p>- 熟悉使用JUnit、Robolectric、mockk、Espresso等框架单元测试及Android测试</p>
-                                <p>- 熟悉自定义View, View绘制流程和事件分发机制, 高性能的UI开发</p>
-                                <p>- 熟悉MySQL、SQLite3、Redis、Hive等数据库的使用</p>
-                                <p>- 熟悉Node.js，了解Express、Koajs、Eggjs后端框架，有Eggjs后端完整的开发经验</p>
-                                <p>- 熟悉Bitrise、Github Actions、Bitbucket Pipelines等CI/CD平台</p>
-                                <p>- 熟悉使用Python、Groovy、Bash等语言开发自定义脚本</p>
-                                <p>- 熟悉常用的设计模式、计算机网络、数据结构和算法, 有刷LeetCode的习惯</p>
-                                <!-- <p>- 熟悉产品设计研发上线以及版本迭代流程和项目管理流程</p> -->
-                                <p>- 了解崩溃、内存、卡顿、启动、UI、安装包体积等方面的优化</p>
-                                <!-- <p>- 了解Hybrid、插件化、热更新、模块化、组件化等常用的开发策略</p> -->
-                                <p>- 英语CET-4， 有创业和跨国公司工作经验，英文能力满足日常工作要求</p>
+                                <p>- 10年移动开发经验，擅长使用Kotlin、Java、Dart、JS语言开发，熟悉React及Python</p>
+                                <p>- 熟练使用Kotlin开发MVVM架构的Android应用，熟悉Jetpack组件、RxJava、Kotlin Flow & Channel、Hilt、Glide、OkHttp等流行库</p>
+                                <p>- 熟悉使用JUnit、Robolectric、mockk、Espresso等框架进行单元测试</p>
+                                <p>- 熟悉自定义View，View绘制流程和事件分发机制，高性能的UI开发</p>
+                                <p>- 熟练使用Dart语言开发Flutter跨平台应用，熟悉Riverpod、Dio、Floor、Rxdart等Flutter开发流行库</p>
+                                <p>- 熟悉Nodejs，有Eggjs后端完整的开发经验，熟悉MySQL、SQLite3、Redis、Hive等数据库的使用</p>
+                                <p>- 熟悉Bitrise、Github Actions、Bitbucket等CI/CD平台及添加自定义脚本</p>
+                                <p>- 熟悉常用设计模式、计算机网络、数据结构和算法，有刷LeetCode的习惯</p>
+                                <p>- 了解启动优化、UI 渲染、内存优化、网络优化、安装包体积等方面的优化</p>
                                 <p>- 做过Team Leader，也擅长与他人合作，对带领团队共同成长有自己的见解</p>
-                                <p>- 有多个独立开发从0到1的项目经验，也有多个App重做、重构的经历</p>
+                                <p>- 有多个独立开发从零到一的项目经验，也有多个App重做、重构的经历</p>
+                                <p>- 英语CET-4， 有创业和跨国公司工作经验，英文能力满足日常工作要求</p>
                             </div>
                         </div>
                         <!-- Language change button -->
@@ -289,7 +282,7 @@
                                     <p class="experience__description">1. 项目在重构后Play Store评分上升到4.6+，同时公司也超额完成年度Kpi</p>
                                     <p class="experience__description">2. 提升Android产品稳定性、使月均Crash-free User指标提升5.4%，稳定在99.8%</p>
                                     <p class="experience__description">3. 团队内推广Kotlin开发代码规范、不同的研发人员在介入时都能快速上手，普及单元测试、Code Review，提升代码质量的同时使项目更易维护</p>
-                                    <p class="experience__description">4. 团队成员提升对MVVM、数据驱动UI、Kotlin Flow等技术的认知，形成了技术积累</p>
+                                    <p class="experience__description">4. 团队成员提升对 MVVM、数据驱动 UI、Kotlin（Flow & Channel）、Hilt 等技术的认知</p>
                                     <p class="experience__description">5. 全员熟练地掌握Git，Git Flow工作流，提高团队协作的效率</p>
                                     <h4>Optus Sport 澳洲体育类项目Android Mobile端与TV端(Kotlin)</h4>
                                     <b>职责与工作内容: </b>
