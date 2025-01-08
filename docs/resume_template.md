@@ -3,7 +3,7 @@
 -   手机：18551229348
 -   Email：szhangbiao@gmail.com
 -   微信号：wx_szhangbiao
--   博客：https://szhangbiao.github.io
+-   博客：https://blog.szhangbiao.cn
 -   github：https://github.com/szhangbiao
 -   在线简历：https://szhangbiao.github.io/resume
 
@@ -16,20 +16,42 @@
 
 ## 技能清单
 
--   10 年移动开发经验，擅长使用 Kotlin、Java、Dart、JS 语言开发，熟悉 React 及 Python
--   熟练使用 Kotlin 开发 MVVM 架构的 Android 应用，熟悉 Jetpack 组件、RxJava、Kotlin Flow & Channel、Hilt、Glide、OkHttp 等流行库
--   熟悉使用 JUnit、Robolectric、mockk、Espresso 等框架进行单元测试
--   熟悉自定义 View，View 绘制流程和事件分发机制，高性能的 UI 开发
--   熟练使用 Dart 语言开发 Flutter 跨平台应用，熟悉 Riverpod、Dio、Floor、Rxdart 等流行库
--   熟悉 Nodejs，有 Eggjs 后端完整的开发经验，熟悉 MySQL、SQLite3、Redis、Hive 等数据库的使用
--   熟悉 Bitrise、Github Actions、Bitbucket Pipelines 等 CI/CD 平台及添加自定义脚本
--   熟悉常用的设计模式、计算机网络、数据结构和算法，有刷 LeetCode 的习惯
--   了解启动优化、UI 渲染、内存优化、网络优化、安装包体积等方面的优化
+-   10+年 Android 开发经验，经常使用 Java、Kotlin、Dart、JS 语言，熟悉 React 及 Python
+-   熟悉 MVVM 架构、Jetpack 组件、组件化/模块化构建工程
+-   熟悉 RxJava、Kotlin Flow & Channel、Hilt、Glide、OkHttp 等流行库
+-   熟悉 JUnit4、Robolectric、mockk、Espresso 等单元测试框架
+-   熟悉常用的性能优化手段，有音箱、机顶盒或投影仪等低端设备上的开发经验
+-   熟悉常用设计模式、计算机网络、数据结构和算法，有刷 LeetCode 的习惯
+-   有 Flutter 开发跨平台应用的经验，熟悉 Riverpod、Dio、Floor、Rxdart 等开发库
+-   有 Eggjs 开发后端经验，熟悉 MySQL、SQLite3、Redis、Hive 等数据库
 -   做过 Team Leader，也擅长与他人合作，对带领团队共同成长有自己的见解
--   有多个独立开发从 0 到 1 的项目经验，也有多个 App 重做、重构的经历
+-   有多个独立开发从零到一的项目经验，也有多个 App 重做、重构的经历
 -   英语 CET-4， 有创业和跨国公司工作经验，英文能力满足日常工作要求
 
 ## 工作经历
+
+### 博视联（苏州）信息科技有限公司 （ 2024 年 4 月 ~ 至今 ）
+
+角色：Android 高级开发工程师
+**职责与工作内容：**
+
+1.
+
+#### 云青来应用市场
+
+1. 独立规划并实施对云青来应用市场 V2.0 自研应用的重做工作
+2. 负责基于 Java、Hilt、Jetpack 组件的 MVVM 架构设计，技术选型、代码设计与实现
+3. 模块化、组件化的工程结构，KTS、Catalogs、模块 AAR 化和自定义插件等应用
+4. 同时支持触屏和遥控器交互，适配多达 20+分辨率其中包括音箱、电视、机顶盒和投影仪等低端设备
+5. 重构安装包的下载、安装、卸载和更新等核心流程，系统签名和非系统签名的安装流程适配
+6. 持续的产出屏幕适配、工程与项目架构、多模块间交互与通信和性能优化系列等飞书文档
+
+<b>获得成绩：</b>
+
+1. 为公司注入新的技术活力，普及代码规范与代码质量，提升全员的技术视野
+2. 逐步提升应用的性能与质量，在 512MB 或 1GB 等低内存设备上依然运行流畅
+3. 全新的工程与项目架构，提升了开发效率和代码的可维护性，缩短了迭代周期
+4. 新的屏幕适配方案实现了三套设计图在 20+分辨率上 UI 的一致性，提升了用户体验
 
 ### 苏州恒创慧力智能科技有限公司 （ 2022 年 2 月 ~ 2024 年 1 月 ）
 
